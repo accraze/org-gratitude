@@ -1,0 +1,15 @@
+#+TITLE: org-gratitude
+
+a simple gratitude journal for org-mode
+
+** Install
+
+All you need to do is define where you want your gratitude journal to be stored via the =org-gratitude-dir= var and then add it to your =org-capture-templates= var (if it exists, otherwise create the var.)
+
+#+begin_src
+(setq org-gratitude-dir "~/Documents/org/gratitude/"
+
+(setq org-capture-templates '(("g" "Gratitude" entry (file
+                                                (expand-file-name (concat (format-time-string "%Y%m%d") ".org") org-gratitude-dir))
+                           org-gratitude-template)))
+#+end_src
