@@ -1,11 +1,12 @@
-;;; org-gratitude.el --- a gratitude journal for emacs org-mode                     -*- lexical-binding: t; -*-
+;;; org-gratitude.el --- A gratitude journal for org-mode        -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022  A. Craze
 
 ;; Author: Andy Craze <accraze@gmail.com>
 ;; Keywords: lisp
-;; Version: 0.0.1
-;; Package-Requires: ((org "0") (emacs "24"))
+;; Version: 0.0.2
+;; Package-Requires: ((org "1.0") (emacs "24"))
+;; Homepage: https://github.com/accraze/org-gratitude
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -31,9 +32,11 @@
 (defcustom org-gratitude-dir "~/Documents/org/gratitude/"
   "Directory containing gratitude entries."
   :type 'directory
+  :group 'dir
   :risky t)
 
-(defvar org-gratitude-template "* Today I am thankful for%?\n* - \n- \n")
+(defun org-gratitude-return-template () "Template for org-gratitude."
+       "* Today I am thankful for \n - \n - \n - %?")
 
 (provide 'org-gratitude)
 ;;; org-gratitude.el ends here
