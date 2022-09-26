@@ -1,10 +1,10 @@
-;;; org-gratitude.el --- A gratitude journal for org-mode        -*- lexical-binding: t; -*-
+;;; org-gratitude.el --- A gratitude journal for org-mode    -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022  A. Craze
 
 ;; Author: Andy Craze <accraze@gmail.com>
 ;; Keywords: lisp
-;; Version: 0.0.2
+;; Version: 0.0.3
 ;; Package-Requires: ((org "1.0") (emacs "24"))
 ;; Homepage: https://github.com/accraze/org-gratitude
 
@@ -22,8 +22,10 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
-;; Put a description of the package here
+;;
+;; "Gratitude bestows reverence, allowing us to encounter everyday epiphanies."
+;; - John Milton
+;; A simple gratitude journal for Emacs org-mode.
 
 ;;; Code:
 
