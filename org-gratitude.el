@@ -1,4 +1,4 @@
-;;; org-gratitude.el --- A gratitude journal for org-mode        -*- lexical-binding: t; -*-
+;;; org-gratitude.el --- A gratitude journal for org-mode    -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2022  A. Craze
 
@@ -22,8 +22,10 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
-;; Put a description of the package here
+;;
+;; "Gratitude bestows reverence, allowing us to encounter everyday epiphanies."
+;; - John Milton
+;; A simple gratitude journal for Emacs org-mode.
 
 ;;; Code:
 
