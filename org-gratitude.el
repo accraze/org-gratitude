@@ -40,5 +40,13 @@
 (defun org-gratitude-return-template () "Template for org-gratitude."
        "* Today I am thankful for \n - \n - \n - %?")
 
+(defvar org-capture-templates)
+
+(setq org-capture-templates
+      (append `(("g" "Gratitude" entry
+                 (file+olp+datetree ,(concat org-gratitude-dir "gratitude.org"))
+                 (function org-gratitude-return-template)))
+            org-capture-templates))
+
 (provide 'org-gratitude)
 ;;; org-gratitude.el ends here
