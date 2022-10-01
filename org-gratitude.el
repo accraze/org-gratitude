@@ -5,7 +5,7 @@
 ;; Author: Andy Craze <accraze@gmail.com>
 ;; Keywords: lisp
 ;; Version: 0.1.0
-;; Package-Requires: ((org "1.0") (emacs "24"))
+;; Package-Requires: ((org "9.3") (emacs "25.1"))
 ;; Homepage: https://github.com/accraze/org-gratitude
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -30,6 +30,7 @@
 ;;; Code:
 
 (require 'org)
+(require 'org-capture)
 
 (defcustom org-gratitude-dir "~/Documents/org/gratitude/"
   "Directory containing gratitude entries."
