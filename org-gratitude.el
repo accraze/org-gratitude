@@ -4,7 +4,7 @@
 
 ;; Author: Andy Craze <accraze@gmail.com>
 ;; Keywords: lisp
-;; Version: 0.1.0
+;; Version: 0.1.1
 ;; Package-Requires: ((org "9.3") (emacs "25.1"))
 ;; Homepage: https://github.com/accraze/org-gratitude
 

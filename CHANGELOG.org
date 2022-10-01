@@ -11,6 +11,9 @@ The format is based on [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]
    :PROPERTIES:
    :CUSTOM_ID: unreleased
    :END:
+** [[https://github.com/accraze/org-gratitude/compare/v0.1.0...v0.1.1][0.1.1]] -
+2022-10-01
+   :PROPERTIES:
 *** Changed
 - require org & org-capture
 *** Docs
