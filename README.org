@@ -8,12 +8,12 @@ Gratitude bestows reverence, allowing us to encounter everyday epiphanies. - Joh
 
 ** Install
 
-All you need to do is define where you want your gratitude journal to be stored via the =org-gratitude-dir= var and then add it to your =org-capture-templates= var (if it exists, otherwise create the var.)
+All you need to do is define where you want your gratitude journal to be stored via the =org-gratitude-dir= var and a new "Gratitude" template will be appended to your =org-capture-templates=.
 
-#+begin_src
-(setq org-gratitude-dir "~/Documents/org/gratitude/"
-
-(setq org-capture-templates '(("g" "Gratitude" entry (file
-                                                (expand-file-name (concat (format-time-string "%Y%m%d") ".org") org-gratitude-dir))
-                           org-gratitude-dir)))
+*** use-package
+#+begin_src elisp
+(use-package org-gratitude
+ :ensure org
+ :config
+ (setq org-gratitude-directory(quote ("~/Dropbox/org/gratitude/"))))
 #+end_src
