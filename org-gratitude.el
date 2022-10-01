@@ -29,7 +29,7 @@
 
 ;;; Code:
 
-;; code goes here
+(require 'org)
 
 (defcustom org-gratitude-dir "~/Documents/org/gratitude/"
   "Directory containing gratitude entries."
