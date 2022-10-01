@@ -1,0 +1,66 @@
+* Changelog
+  :PROPERTIES:
+  :CUSTOM_ID: changelog
+  :END:
+All notable changes to this project will be documented in this file.
+
+The format is based on [[https://keepachangelog.com/en/1.0.0/][Keep a Changelog]], and this project adheres to
+[[https://semver.org/spec/v2.0.0.html][Semantic Versioning]].
+
+** [[https://github.com/accraze/org-gratitude/compare/v1.0.0...HEAD][Unreleased]]
+   :PROPERTIES:
+   :CUSTOM_ID: unreleased
+   :END:
+*** Changed
+- require org & org-capture
+*** Docs
+- added CHANGELOG
+*** Build
+- elisp-check via gh actions
+** [[https://github.com/accraze/org-gratitude/compare/v0.0.3...v0.1.0][0.1.0]] -
+2022-09-29
+   :PROPERTIES:
+   :CUSTOM_ID: section-3
+   :END:
+*** Added
+    :PROPERTIES:
+    :CUSTOM_ID: added-2
+    :END:
+
+- New Gratitude option appended to =org-capture-templates=
+
+** [[https://github.com/accraze/org-gratitude/compare/v0.0.2...v0.0.3][0.0.3]] -
+2022-09-25
+   :PROPERTIES:
+   :CUSTOM_ID: section-9
+   :END:
+*** Docs
+    :PROPERTIES:
+    :CUSTOM_ID: added-7
+    :END:
+
+- Updated docs with a quote from John Milton.
+
+** [[https://github.com/accraze/org-gratitude/compare/v0.0.1...v0.0.2][0.0.2]] -
+2022-08-19
+   :PROPERTIES:
+   :CUSTOM_ID: section-10
+   :END:
+*** Changed
+    :PROPERTIES:
+    :CUSTOM_ID: added-8
+    :END:
+
+- move template defvar to defun return-template
+
+** [[https://github.com/olivierlacan/keep-a-changelog/releases/tag/v0.0.1][0.0.1]] -
+2022-08-17
+   :PROPERTIES:
+   :CUSTOM_ID: section-11
+   :END:
+*** Added
+    :PROPERTIES:
+    :CUSTOM_ID: added-9
+    :END:
+
+- Initial Release - hardcoded dir value and template
